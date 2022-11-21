@@ -55,12 +55,25 @@ public class Ventana03 extends JFrame{
         this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
+        this.jPanelList.add(new JPanel());
         
         this.jPanelList.get(0).setLayout(new GridLayout(2,2));
         this.jPanelList.get(1).setLayout(new GridLayout(4,1));
         this.jPanelList.get(2).setLayout(new GridLayout(1,2));
         this.jPanelList.get(3).setLayout(new GridLayout(3,1));
-        this.jPanelList.get(4).setLayout(new BorderLayout());
+        this.jPanelList.get(4).setLayout(new GridLayout(1,3));
         
         this.jPanelList.get(5).setBackground(Color.yellow);
         this.jPanelList.get(6).setBackground(Color.yellow);
@@ -77,6 +90,11 @@ public class Ventana03 extends JFrame{
         this.jPanelList.get(14).setBackground(Color.green);
         this.jPanelList.get(15).setBackground(Color.yellow);
         this.jPanelList.get(16).setBackground(Color.red);
+        this.jPanelList.get(17).setBackground(Color.green);
+        this.jPanelList.get(18).setBackground(Color.yellow);
+        this.jPanelList.get(19).setBackground(Color.red);
+        
+        
         
         
         this.jPanelList.get(0).add(this.jPanelList.get(1));
@@ -100,11 +118,9 @@ public class Ventana03 extends JFrame{
         this.jPanelList.get(3).add(this.jPanelList.get(12));
         this.jPanelList.get(3).add(this.jPanelList.get(13));
         
-        this.jPanelList.get(4).add(this.jPanelList.get(14),BorderLayout.CENTER);
-        this.jPanelList.get(4).add(this.jPanelList.get(16),BorderLayout.SOUTH);
-        this.jPanelList.get(4).add(this.jPanelList.get(11),BorderLayout.EAST);
-        this.jPanelList.get(4).add(this.jPanelList.get(12),BorderLayout.WEST);
-        this.jPanelList.get(4).add(this.jPanelList.get(13),BorderLayout.NORTH);
+        this.jPanelList.get(4).add(this.jPanelList.get(17));
+        this.jPanelList.get(4).add(this.jPanelList.get(18));
+        this.jPanelList.get(4).add(this.jPanelList.get(19));
         
         
         
